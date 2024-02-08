@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-react": "^7.23.3",
+    "firebase": "^10.7.1"
+  }
+}

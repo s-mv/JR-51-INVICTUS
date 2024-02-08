@@ -1,0 +1,57 @@
+.queue-page {
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .columns {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .left-column,
+  .right-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .center-column {
+    min-width: 2rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    button {
+      height: 70px;
+      text-align: center;
+      border-radius: 20px;
+      margin: 0px 40px;
+    }
+  }
+
+  .right-column,
+  .left-column {
+    min-width: 2rem;
+
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+
+    .queue-card {
+      min-width: 4rem;
+
+      background: #201b1b;
+      margin: 0.5rem;
+      padding: 1rem;
+      // one thing I've learned is never use %
+      border-radius: 0.5rem 0.5rem;
+    }
+  }
+}

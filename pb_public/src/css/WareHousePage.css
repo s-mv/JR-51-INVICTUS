@@ -1,0 +1,29 @@
+.warehouse-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .add {
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+    background-color: rgb(4, 172, 4);
+    transition: 0.3s;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .add:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 128, 0, 0.575);
+  }
+
+  .plus-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

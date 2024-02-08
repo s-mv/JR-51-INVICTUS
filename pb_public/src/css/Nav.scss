@@ -1,0 +1,35 @@
+@use "./global.scss" as g;
+
+.nav {
+  position: absolute;
+  height: g.$nav-size;
+  width: 100%;
+  background: #131313;
+
+  box-sizing: border-box;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  .left {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+  }
+
+  .right {
+    flex: 0 0 auto;
+  }
+
+  .nav-item {
+    padding: 1rem;
+  }
+}
+
+.pushup {
+  height: g.$nav-size;
+  width: 8rem;
+}
